@@ -6,10 +6,10 @@ body {
 
 
 
-ul {
-  list-style-type: none;
+ul { /* */
+  list-style-type: none; 
   margin: 0;
-  padding: 0;
+  padding: 5;
   overflow: hidden;
   background-color: #333333;
 }
