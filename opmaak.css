@@ -11,11 +11,12 @@ ul { /*Menu*/
   padding: 5;
   overflow: auto;
   background-color: #333333;
+  position: fixed;
 }
 
 ul li {
   float: left;
-  position: fixed;
+
 }
 
 
