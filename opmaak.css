@@ -1,7 +1,7 @@
 body { /*Dit is mijn achtergrondkleur*/
   margin: 0;
   padding: 0;
-  background-color: #45150d;
+  background-color: #349780;
 }
 
 
@@ -27,7 +27,7 @@ ul li a {
 }
 
 ul li a:hover {
-  background-color: #45150d;
+  background-color: #da4dad;
 }
 
 
