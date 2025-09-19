@@ -21,7 +21,7 @@ body { /*Dit is mijn horizontaal + dropdown menu*/
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 20px 25px;
-  text-decoration: none;
+  text-decoration:none;
 }
 
 .dropdown {
