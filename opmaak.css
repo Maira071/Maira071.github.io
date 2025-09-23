@@ -43,7 +43,7 @@ body { /*Dit is mijn horizontaal + dropdown menu*/
   display: none;
   position: absolute;
   background-color: rgb(238, 55, 159);
-  min-width: 136px;
+  min-width: 135px;
   z-index: 1;
 }
 
