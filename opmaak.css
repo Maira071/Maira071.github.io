@@ -64,5 +64,9 @@ body { /*Dit is mijn horizontaal + dropdown menu*/
   display: block;
 }
 
+h1 { /*Dit is mijn titel kleur*/
+color: white;
+}
+
 
 
