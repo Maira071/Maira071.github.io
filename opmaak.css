@@ -64,9 +64,9 @@ body { /*Dit is mijn horizontaal + dropdown menu*/
   display: block;
 }
 
-h1 { /*Dit is mijn titel kleur*/
-color: white;
-text-align: center;
+h1 { 
+color: white;/*Dit is mijn titel kleur*/
+text-align: center;/*Dit is zorgt ervoor dat mijn titel in het midden staat van de pagina*/
 }
 
 
