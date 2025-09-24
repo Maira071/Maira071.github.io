@@ -68,6 +68,7 @@ h1 {
 color: white;/*Dit is mijn titel kleur*/
 text-align: center;/*Dit is zorgt ervoor dat mijn titel in het midden staat van de pagina*/
 text-decoration: underline; /* Dit zorgt voor onderlijning*/
+font-family: Georgia, serif; /*Dit is mijn lettertype*/
 }
 
 
