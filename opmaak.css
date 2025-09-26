@@ -64,6 +64,10 @@ body { /*Dit is mijn horizontaal + dropdown menu*/
   display: block;
 }
 
+.navbar{
+  font-family: "Times New Roman", Times, serif;
+}
+
 h1 { 
 color: white;/*Dit is mijn titel kleur*/
 text-align: center;/*Dit is zorgt ervoor dat mijn titel in het midden staat van de pagina*/
