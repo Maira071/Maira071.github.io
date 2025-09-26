@@ -64,7 +64,7 @@ body { /*Dit is mijn horizontaal + dropdown menu*/
   display: block;
 }
 
-.navbar{
+.navbar{ /*Dit is mijn lettertype van mijn menu*/
   font-family: "Times New Roman", Times, serif;
 }
 
