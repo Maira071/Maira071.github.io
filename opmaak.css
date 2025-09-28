@@ -91,7 +91,7 @@ div.p1 {
 img {
     float: right;      /* zet plaatje rechts */
     margin-left: 10px; /* ruimte tussen tekst en plaatje */
-    width: 150px;      /* grootte plaatje */
+    width: 200px;      /* grootte plaatje */
     height: automatic;
   }
 
