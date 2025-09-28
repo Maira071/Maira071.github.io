@@ -77,16 +77,20 @@ text-decoration: underline; /* Dit zorgt voor onderlijning*/
 
 div.p1 {
   color: white;
-  outline-width: 8px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+div.p2 { /*Blok om tekst heen*/ 
+outline-width: 8px;
   padding: 5px;
   margin:  40px ;
   outline-style: solid;
   outline-color: rgb(238, 55, 159);
   width: 40%;
-  font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
 }
-
 
 img {
     float: right;      /* zet plaatje rechts */
