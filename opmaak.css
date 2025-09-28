@@ -101,7 +101,21 @@ img {
     height: automatic;
   }
 
+.container { /*DIt is mijn structuur zodat mijn plaatjes goed staan*/
+  display: flex;
+  justify-content: space-between; /* tekst links, plaatjes rechts */
+  align-items: flex-start;        /* begin van de kolommen bovenaan uitlijnen */
+  gap: 20px;                      /* ruimte tussen tekst en plaatjes */
+}
 
+.links {
+  flex: 1;                        /* neemt beschikbare ruimte */
+}
+
+.rechts img {
+  display: block;                 /* onder elkaar */
+  margin-bottom: 10px;            /* ruimte tussen plaatjes */
+}
 
 
 
