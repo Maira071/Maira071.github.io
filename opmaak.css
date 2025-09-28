@@ -106,27 +106,28 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  margin: 20px;
 }
 
-/* laat .links gewoon automatisch schalen */
-.links {
-  flex: auto;
-}
-
-/* roze vlak zelf krijgt 40% breedte */
+/* roze tekstvlak */
 .p2 {
-  width: 40%;
+  width: 40%;   /* vaste breedte 40% van het scherm */
 }
 
+/* afbeeldingen rechts */
 .rechts {
+  flex: 1;                     /* neemt de rest van de ruimte */
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: column;       /* onder elkaar */
+  align-items: flex-end;        /* rechts uitlijnen */
 }
 
 .rechts img {
   margin-bottom: 10px;
+  max-width: 100%;   /* vult de rechterkolom */
+  height: auto;      /* behoudt verhoudingen */
 }
+
 
 div.p3 { /* Dit is de opmaak van de botton-link naar binary bonanza*/
  a:link, a:visited {
