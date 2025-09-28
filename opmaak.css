@@ -102,6 +102,20 @@ img {
   }
 
   
+b:link, b:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+b:hover, b:active {
+  background-color: red;
+}
+
+
 .footer {
    position: fixed;
    left: 0;
