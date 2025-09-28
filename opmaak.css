@@ -108,8 +108,9 @@ img {
 }
 
 .links {
-  flex: 1;                 /* tekst neemt beschikbare breedte */
+  flex: 0 0 40%;  /* neemt precies 40% van de breedte */
 }
+
 
 .rechts {
   display: flex;
