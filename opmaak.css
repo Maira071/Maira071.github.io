@@ -101,20 +101,7 @@ img {
     height: automatic;
   }
 
-  a:link, a:visited { /*Dit is de opmaak van de botton-link*/
-  background-color: rgb(238, 55, 159);;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-a:hover, a:active {
-  background-color: red;
-}
-
-
+  
 .footer {
    position: fixed;
    left: 0;
