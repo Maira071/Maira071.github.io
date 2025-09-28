@@ -120,7 +120,6 @@ img {
 
 .rechts img {
   margin-bottom: 10px;     /* ruimte tussen plaatjes */
-  max-width: 150px;        /* voorkomt dat ze te groot worden */
 }
 
 div.p3 { /* Dit is de opmaak van de botton-link naar binary bonanza*/
