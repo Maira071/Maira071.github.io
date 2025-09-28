@@ -93,7 +93,7 @@ outline-width: 8px;
   margin-bottom: 100px;
 }
 
-img1 {
+img {
     float: right;      /* zet plaatje rechts */
     margin-right: 200px; /* ruimte tussen plaatje en rechterkant*/
     margin-bottom: 100px; /*ruimte tussen plaaje en onderkant*/
@@ -101,13 +101,7 @@ img1 {
     height: automatic;
   }
 
-  img2 {
-    float: right;      /* zet plaatje rechts */
-    margin-right: 200px; /* ruimte tussen plaatje en rechterkant*/
-    margin-bottom: 100px; /*ruimte tussen plaaje en onderkant*/
-    width: 500px;      /* grootte plaatje */
-    height: automatic;
-  }
+  
 
 
 .footer {
