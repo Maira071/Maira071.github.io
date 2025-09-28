@@ -103,7 +103,7 @@ img {
 
 div.p3 {
  a:link, a:visited {
-  background-color: #f44336;
+  background-color: #e54090;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -112,7 +112,7 @@ div.p3 {
  }
 
  a:hover, a:active {
-  background-color: red;
+  background-color: rgb(0, 42, 255);
  }
 }
 
