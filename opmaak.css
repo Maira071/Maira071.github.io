@@ -80,6 +80,7 @@ p {
   padding: 5px;
   outline-style: solid;
   outline-color: pink;
+  position: static;
 }
 
 
