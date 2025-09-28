@@ -105,7 +105,6 @@ img {
 .content-container { 
   display: flex;
   align-items: flex-start; /* kolommen bovenaan uitlijnen */
-  gap: 20px;               /* ruimte tussen tekst en plaatjes */
 }
 
 .links {
