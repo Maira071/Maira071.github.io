@@ -87,6 +87,10 @@ div.p1 {
   font-family: "Times New Roman", Times, serif;
 }
 
+.float-right {
+  float: right;
+  margin-left: 10px; /* ruimte tussen plaatje en tekst */
+}
 
 
 
