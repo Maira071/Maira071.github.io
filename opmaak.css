@@ -108,12 +108,14 @@ img {
   gap: 20px;
 }
 
+/* laat .links gewoon automatisch schalen */
 .links {
-  flex: 0 0 40%;  /* neemt precies 40% van de breedte */
+  flex: auto;
 }
 
+/* roze vlak zelf krijgt 40% breedte */
 .p2 {
-  width: 100%;   /* roze vlak vult hele links-kolom (dus 40%) */
+  width: 40%;
 }
 
 .rechts {
