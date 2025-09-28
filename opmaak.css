@@ -75,8 +75,8 @@ text-decoration: underline; /* Dit zorgt voor onderlijning*/
  font-family: "Sofia", sans-serif;
 }
 
-p1 { 
-  border: 2px solid rgb(255, 255, 255);
+p1 { /*Dit is mijn tekst opmaak*/
+  border: 2px solid rgb(255, 255, 255); 
   outline: rgb(235, 105, 126) solid 10px;
   margin: auto;  
   padding: 20px;
