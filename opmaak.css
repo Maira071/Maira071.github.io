@@ -102,7 +102,7 @@ img {
   }
 
   
-b:link, b:visited {
+div.p3:link, div.p3:visited {
   background-color: #f44336;
   color: white;
   padding: 14px 25px;
@@ -111,7 +111,7 @@ b:link, b:visited {
   display: inline-block;
 }
 
-b:hover, b:active {
+div.p3:hover, div.p3:active {
   background-color: red;
 }
 
