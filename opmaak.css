@@ -101,11 +101,16 @@ img {
     height: automatic;
   }
 
- .kleurmodellenplaatje { 
-   display: block;
-   margin-left: auto;  /* zorgt dat ze rechts uitgelijnd worden */
-   margin-right: 0;
- }
+ .rechts {
+  text-align: right;   /* alles in deze div naar rechts */
+}
+
+.rechts img {
+  display: block;      /* elke afbeelding neemt een hele regel */
+  margin: 10px 0;      /* optioneel: ruimte tussen de plaatjes */
+}
+
+
 
 div.p3 { /* Dit is de opmaak van de botton-link naar binary bonanza*/
  a:link, a:visited {
