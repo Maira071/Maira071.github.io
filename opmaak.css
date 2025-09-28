@@ -90,7 +90,7 @@ div.p1 {
 
 img {
     float: right;      /* zet plaatje rechts */
-    margin-left: 10px; /* ruimte tussen tekst en plaatje */
+    margin-right: 20px; /* ruimte tussen tekst en plaatje */
     width: 200px;      /* grootte plaatje */
     height: automatic;
   }
