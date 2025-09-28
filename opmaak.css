@@ -107,7 +107,7 @@ img {
    margin-right: 0;
  }
 
-div.p3 {
+div.p3 { /* Dit is de opmaak van de botton-link naar binary bonanza*/
  a:link, a:visited {
   background-color: #e54090;
   color: white;
