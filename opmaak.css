@@ -101,6 +101,12 @@ img {
     height: automatic;
   }
 
+ .kleurmodellenplaatje { 
+   display: block;
+   margin-left: auto;  /* zorgt dat ze rechts uitgelijnd worden */
+   margin-right: 0;
+ }
+
 div.p3 {
  a:link, a:visited {
   background-color: #e54090;
