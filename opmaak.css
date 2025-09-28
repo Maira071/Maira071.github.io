@@ -87,21 +87,7 @@ div.p1 {
   font-family: "Times New Roman", Times, serif;
 }
 
-.container { /*dit zorgt voor de positie op mijn homepagina*/ 
-  display: flex;         /* flexbox zorgt voor horizontale rij */
-  align-items: center;   /* verticale uitlijning */
-  gap: 20px;             /* ruimte tussen tekst en plaatje */
-}
 
-.container img {
-  order: 2;              /* zet het plaatje rechts */
-  width: 150px;           /* grootte van het plaatje */
-}
-
-.container p {
-  order: 1;              /* tekst links */
-  margin: 0;             /* verwijder standaardmarge */
-}
 
 
 .footer {
