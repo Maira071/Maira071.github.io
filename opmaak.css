@@ -75,13 +75,11 @@ text-decoration: underline; /* Dit zorgt voor onderlijning*/
  font-family: "Sofia", sans-serif;
 }
 
-p1 { /*Dit is mijn tekst opmaak*/
-  color: white;
-  border: 2px solid rgb(255, 255, 255); 
-  outline: rgb(235, 105, 126) solid 10px;
-  margin: auto;  
-  padding: 20px;
-  text-align: center;
+p {
+  outline-width: 8px;
+  padding: 5px;
+  outline-style: solid;
+  outline-color: pink;
 }
 
 
