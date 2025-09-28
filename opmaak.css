@@ -102,24 +102,29 @@ img {
   }
 
 
-.content-container { 
+.content-container {
   display: flex;
-  align-items: flex-start; /* kolommen bovenaan uitlijnen */
+  align-items: flex-start;
+  gap: 20px;
 }
 
 .links {
   flex: 0 0 40%;  /* neemt precies 40% van de breedte */
 }
 
+.p2 {
+  width: 100%;   /* roze vlak vult hele links-kolom (dus 40%) */
+}
 
 .rechts {
   display: flex;
-  flex-direction: column;  /* plaatjes onder elkaar */
-  align-items: flex-end;   /* plaatjes rechts uitlijnen */
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .rechts img {
-  margin-bottom: 10px;     /* ruimte tussen plaatjes */
+  margin-bottom: 10px;
+  max-width: 150px;
 }
 
 div.p3 { /* Dit is de opmaak van de botton-link naar binary bonanza*/
