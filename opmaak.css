@@ -101,14 +101,7 @@ img {
     height: automatic;
   }
 
-div.rechts {
-  text-align: right;   /* alles in deze div naar rechts */
-}
 
-div.rechts img {
-  display: block;      /* elke afbeelding neemt een hele regel */
-  margin: 10px 0;      /* optioneel: ruimte tussen de plaatjes */
-}
 
 
 
