@@ -75,7 +75,7 @@ text-decoration: underline; /* Dit zorgt voor onderlijning*/
  font-family: "Sofia", sans-serif;
 }
 
-div.p1 {
+div.p1 { /*Dit is mijn tekst opmaak voor p1*/
   color: white;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
