@@ -76,12 +76,12 @@ text-decoration: underline; /* Dit zorgt voor onderlijning*/
 }
 
 p1 { /*Dit is mijn tekst opmaak*/
+  color: white;
   border: 2px solid rgb(255, 255, 255); 
   outline: rgb(235, 105, 126) solid 10px;
   margin: auto;  
   padding: 20px;
   text-align: center;
-  color: white;
 }
 
 
