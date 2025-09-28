@@ -102,7 +102,26 @@ img {
   }
 
 
+.content-container { 
+  display: flex;
+  align-items: flex-start; /* kolommen bovenaan uitlijnen */
+  gap: 20px;               /* ruimte tussen tekst en plaatjes */
+}
 
+.links {
+  flex: 1;                 /* tekst neemt beschikbare breedte */
+}
+
+.rechts {
+  display: flex;
+  flex-direction: column;  /* plaatjes onder elkaar */
+  align-items: flex-end;   /* plaatjes rechts uitlijnen */
+}
+
+.rechts img {
+  margin-bottom: 10px;     /* ruimte tussen plaatjes */
+  max-width: 150px;        /* voorkomt dat ze te groot worden */
+}
 
 div.p3 { /* Dit is de opmaak van de botton-link naar binary bonanza*/
  a:link, a:visited {
