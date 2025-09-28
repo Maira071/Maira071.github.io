@@ -76,6 +76,7 @@ text-decoration: underline; /* Dit zorgt voor onderlijning*/
 }
 
 p1 {
+  color: white;
   outline-width: 8px;
   padding: 5px;
   outline-style: solid;
