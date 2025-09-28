@@ -101,6 +101,15 @@ img1 {
     height: automatic;
   }
 
+  img2 {
+    float: right;      /* zet plaatje rechts */
+    margin-right: 200px; /* ruimte tussen plaatje en rechterkant*/
+    margin-bottom: 100px; /*ruimte tussen plaaje en onderkant*/
+    width: 500px;      /* grootte plaatje */
+    height: automatic;
+  }
+
+
 .footer {
    position: fixed;
    left: 0;
