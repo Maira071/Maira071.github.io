@@ -19,7 +19,7 @@
   overflow: hidden; /* Zorgt dat dropdown netjes blijft */
 }
 
-dropdown .dropbtn {
+.dropdown .dropbtn {
   font-size: 16px; /* Tekstgrootte van de knop */
   border: none; /* Geen rand rond de knop */
   outline: none; /* Geen outline bij klikken */
