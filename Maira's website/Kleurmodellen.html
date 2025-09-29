@@ -1,77 +1,77 @@
-<!DOCTYPE html> <!--Dit is mijn kleurmodellen pagina-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kleurmodellen - Maira's website</title>
 
-<html> <!--Dit is mijn html element-->
-    <head>
-<link rel="stylesheet" href="opmaak.css"> <!--Dit is mijn css link-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--zodat website ook op telefoon gebruikt kan worden-->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-<style> /*Dit is mijn achtergrond voor mijn kleurmodellen pagina en staat in html omdat het voor elke pagina anders is*/
-body {
-  background-image: url("https://media.istockphoto.com/id/1398323376/vector/rainbow-colors-gradient-defocused-blurred-motion-abstract-background-vector.jpg?s=612x612&w=0&k=20&c=CTp_f8JNejW3r9e-TQZwf-DEi2ulTJM0W_GDJz1FBAg=");
-  background-repeat: no-repeat;
-  background-attachment:fixed ;
-  background-size: cover;
-}
+    <!-- Externe font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 
-</style>
+    <!-- Lokale CSS -->
+    <link rel="stylesheet" href="css/opmaak.css">
 
+    <!-- Achtergrond -->
+    <style>
+        body {
+            background-image: url("https://media.istockphoto.com/id/1398323376/vector/rainbow-colors-gradient-defocused-blurred-motion-abstract-background-vector.jpg?s=612x612&w=0&k=20&c=CTp_f8JNejW3r9e-TQZwf-DEi2ulTJM0W_GDJz1FBAg=");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
 
-  </head>
-
-<body> 
-    
-    <div class="navbar"> <!--Dit is mijn menu met dropdown-->
-  <a href="index.html">Home</a>
-  <a href="algemeneinformatie.html">Algemene informatie</a>
-  <a href="Binairstelsel.html">Binair stelsel</a>
-  <a href="Kleurmodellen.html">Kleurmodellen</a>
-  <div class="dropdown">
-    <button class="dropbtn">Compressie 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="Vector.html">Vector</a>
-      <a href="Bitmap.html">Bitmap</a>
-    </div>
-  </div> 
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="algemeneinformatie.html">Algemene informatie</a>
+    <a href="Binairstelsel.html">Binair stelsel</a>
+    <a href="Kleurmodellen.html">Kleurmodellen</a>
+    <div class="dropdown">
+        <button class="dropbtn">Compressie 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="Vector.html">Vector</a>
+            <a href="Bitmap.html">Bitmap</a>
+        </div>
+    </div> 
 </div>
 
-<h1>Kleurmodellen</h1> <!--Dit is mijn titel van mijn Kleurmodellen page-->
-
-
+<h1>Kleurmodellen</h1>
 
 <div class="content-container">
-  <!-- Linkerkolom: tekst met roze achtergrond -->
-  <div class="links">
-    <div class="p2">
-      <div class="p1">
-        Een beeldscherm bestaat uit allemaal pixels, samenstelling van picture en element, die vierkant zijn en een bepaalde kleur hebben. Dit kun je goed zien als je een afbeelding heel ver inzoomt. Als je nog verder inzoomt zal je zien dat die pixels bestaan uit drie lampjes die je sterker en zwakker kunnen laten branden. Er zijn twee belangrijke kleurmodellen waarmee een kleur samengesteld kan worden. CMY-model en het RGB-model.
-      </div>
+    <!-- Linkerkolom: tekst -->
+    <div class="links">
+        <div class="p2">
+            <div class="p1">
+                Een beeldscherm bestaat uit allemaal pixels, samenstelling van picture en element, die vierkant zijn en een bepaalde kleur hebben. Dit kun je goed zien als je een afbeelding heel ver inzoomt. Als je nog verder inzoomt zal je zien dat die pixels bestaan uit drie lampjes die je sterker en zwakker kunnen laten branden. Er zijn twee belangrijke kleurmodellen waarmee een kleur samengesteld kan worden: CMY-model en RGB-model.
+            </div>
 
-      <div class="p1"><b>RGB-model</b></div>
-      <div class="p1">
-        Op beeldschermen kom je vooral RGB tegen, wat staat voor rood, groen en blauw. Dit model is gebaseerd op een zwarte achtergrond, want als je beeldscherm uit staat is het beeldscherm zwart, de pixels branden dan niet. Dit model is dan ook een additief, dit betekent dat de basis kleurloos (zwart) is.
-      </div>
+            <div class="p1"><b>RGB-model</b></div>
+            <div class="p1">
+                Op beeldschermen kom je vooral RGB tegen, wat staat voor rood, groen en blauw. Dit model is gebaseerd op een zwarte achtergrond, want als je beeldscherm uit staat is het beeldscherm zwart, de pixels branden dan niet. Dit model is een additief model, wat betekent dat de basis kleurloos (zwart) is.
+            </div>
 
-      <div class="p1"><b>CMY-model</b></div>
-      <div class="p1">
-        Dit model wordt vooral gebruikt in drukwerk en print. CMY staat voor cyaan, magenta en yellow. Dit model is subtractief, wat betekent dat de basis bestaat uit alle kleuren van het kleurenspectrum, dus in het geval van printpapier, wit. Alleen cyaan, magenta en yellow samen maken eerder donkerbruin/grijs dan zwart. Bovendien wordt het papier erg nat op die plekken. Om toch zwart te kunnen maken met dit kleurmodel, wordt de kleur zwart hieraan toegevoegd. Zo ontstaat het CMYK-model, waarin de K staat voor "key" of "black".
-      </div>
+            <div class="p1"><b>CMY-model</b></div>
+            <div class="p1">
+                Dit model wordt vooral gebruikt in drukwerk en print. CMY staat voor cyaan, magenta en yellow. Dit model is subtractief, wat betekent dat de basis bestaat uit alle kleuren van het kleurenspectrum, dus in het geval van printpapier, wit. Alleen cyaan, magenta en yellow samen maken eerder donkerbruin/grijs dan zwart. Om toch zwart te kunnen maken met dit kleurmodel, wordt de kleur zwart hieraan toegevoegd. Zo ontstaat het CMYK-model, waarin de K staat voor "key" of "black".
+            </div>
+        </div>
     </div>
-  </div>
 
-  <!-- Rechterkolom: afbeeldingen -->
-  <div class="rechts">
-    <img src="Kleurencirkels.jpg" alt="plaatje">
-    <img src="ZoomInAfbeelding.jpg" alt="ingezoomde foto van hert">
-    <img src="PixelLampjesRGB.png" alt="pixels van RGB-model">
-  </div>
+    <!-- Rechterkolom: afbeeldingen -->
+    <div class="rechts">
+        <img src="images/Kleurencirkels.jpg" alt="Kleurencirkels">
+        <img src="images/ZoomInAfbeelding.jpg" alt="Ingezoomde foto">
+        <img src="images/PixelLampjesRGB.png" alt="Pixels van RGB-model">
+    </div>
 </div>
-
-  
 
 <div class="footer">
-  <p>Gemaakt door Maira Mooijman</p>
+    <p>Gemaakt door Maira Mooijman</p>
 </div>
-    </body>
+
+</body>
 </html>
