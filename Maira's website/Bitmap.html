@@ -1,53 +1,62 @@
-<!DOCTYPE html> <!--Dit is mijn Bitmap pagina-->
-<html> <!--Dit is mijn html element-->
+<!DOCTYPE html>
+<html>
 <head>
-  <link rel="stylesheet" href="opmaak.css"> <!--Dit is mijn css link-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--zodat website ook op telefoon gebruikt kan worden-->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-        
-<style> /*dit is mijn achtergrond image en staat in html omdat het voor elke pagina anders is.*/
- body {
-  background-image: url(https://cdn.pixabay.com/photo/2019/08/28/12/20/fog-4436636_1280.jpg) ;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-      }
-</style>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compressie: Bitmap - Maira's website</title>
+
+    <!-- Externe font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <!-- Lokale CSS -->
+    <link rel="stylesheet" href="css/opmaak.css">
+
+    <!-- Achtergrond -->
+    <style>
+        body {
+            background-image: url("https://cdn.pixabay.com/photo/2019/08/28/12/20/fog-4436636_1280.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
 </head>
-<body> 
-    
-    <div class="navbar"> <!--Dit is mijn menu met dropdown-->
-  <a href="index.html">Home</a>
-  <a href="algemeneinformatie.html">Algemene informatie</a>
-  <a href="Binairstelsel.html">Binair stelsel</a>
-  <a href="Kleurmodellen.html">Kleurmodellen</a>
-  <div class="dropdown">
-    <button class="dropbtn">Compressie 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="Vector.html">Vector</a>
-      <a href="Bitmap.html">Bitmap</a>
-    </div>
-  </div> 
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="algemeneinformatie.html">Algemene informatie</a>
+    <a href="Binairstelsel.html">Binair stelsel</a>
+    <a href="Kleurmodellen.html">Kleurmodellen</a>
+    <div class="dropdown">
+        <button class="dropbtn">Compressie 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="Vector.html">Vector</a>
+            <a href="Bitmap.html">Bitmap</a>
+        </div>
+    </div> 
 </div>
 
-<h1>Compressie: Bitmap</h1> <!--Dit is mijn titel van mijn Bitmap page-->
-<img src="PixelVSVector.jpg" alt="plaatje van pixels vs vector">
+<h1>Compressie: Bitmap</h1>
+
+<img src="images/PixelVSVector.jpg" alt="Pixels vs vector afbeelding">
 
 <div class="p2">
-  <div class="p1">Een bitmap bestaat uit allemaal kleine puntjes, pixels dus. Foto’s zijn daar een goed voorbeeld van. Als je inzoomt, zie je die blokjes en wordt de afbeelding wazig. Bij bitmaps wordt vaak gebruikgemaakt van lossy compressie, dus de computer gooit wat informatie weg om ruimte te creëren. Een voordeel is dus de kleinere bestanden, maar een nadeel is dat het wel van minder goede kwaliteit is. 
-  </div>
-  <div class="p1"><b>Geluidsfragmenten</b>
-  </div>
-  <div class="p1">Geluid kan ook worden opgeslagen in computers, maar hoe worden die trillingen in de lucht omgezet naar nullen en eenen? Dat kan door te samplen. Samplen is het opnemen van geluid met een microfoon. Die mircofoon kan die trilling omzetten naar elektrische signalen en de computer kan dit elektrische signaal omzetten naar digitale waarden. Bij het samplen wordt om een bepaald aantal seconden door de computer gemeten wat het sterkte geluid is. De waarden worden binair opgeslagen. Als je het vervolgens wilt afspelen, worden die waarden omgezet naar een elektrisch signaal. Hoe meer samples, hoe nauwkeuriger. Dat noem je ook wel de sample rate: het aantal samples per seconde.
-  </div>
+    <div class="p1">
+        Een bitmap bestaat uit allemaal kleine puntjes, pixels dus. Foto’s zijn daar een goed voorbeeld van. Als je inzoomt, zie je die blokjes en wordt de afbeelding wazig. Bij bitmaps wordt vaak gebruikgemaakt van lossy compressie, dus de computer gooit wat informatie weg om ruimte te creëren. Een voordeel is dus de kleinere bestanden, maar een nadeel is dat het wel van minder goede kwaliteit is.
+    </div>
+
+    <div class="p1"><b>Geluidsfragmenten</b></div>
+    <div class="p1">
+        Geluid kan ook worden opgeslagen in computers, maar hoe worden die trillingen in de lucht omgezet naar nullen en enen? Dat kan door te samplen. Samplen is het opnemen van geluid met een microfoon. Die microfoon kan die trilling omzetten naar elektrische signalen en de computer kan dit elektrische signaal omzetten naar digitale waarden. Bij het samplen wordt om een bepaald aantal seconden door de computer gemeten wat het sterkte geluid is. De waarden worden binair opgeslagen. Als je het vervolgens wilt afspelen, worden die waarden omgezet naar een elektrisch signaal. Hoe meer samples, hoe nauwkeuriger. Dat noem je ook wel de sample rate: het aantal samples per seconde.
+    </div>
 </div>
 
 <div class="footer">
-  <p>Gemaakt door Maira Mooijman</p>
+    <p>Gemaakt door Maira Mooijman</p>
 </div>
-    </body>
-    
+
+</body>
 </html>
