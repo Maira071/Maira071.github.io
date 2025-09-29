@@ -52,7 +52,7 @@ dropdown .dropbtn {
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd; /* Lichtgrijze hover */
+  background-color: #ddd; /* kleur hover */
 }
 
 .dropdown:hover .dropdown-content {
@@ -64,10 +64,10 @@ h1 {
   color: white;
   text-align: center; /* Midden van pagina */
   text-decoration: underline; /* Onderlijnd */
-  font-family: "Sofia", sans-serif;
+  font-family: "Sofia", sans-serif; /* lettertype*/
 }
 
-div.p1 {
+div.p1 { /* Dit is tekst opmaak en noem ik even p1*/
   color: white;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif; /* Tekstblok */
@@ -80,8 +80,8 @@ div.p2 {
   outline-color: rgb(238, 55, 159); /* Roze rand */
   padding: 5px;
   margin: 40px;
-  width: 40%;
-  margin-bottom: 100px;
+  width: 40%; /*hoeveel het van scherm inneemt*/ 
+  margin-bottom: 100px; /*Onderkant ruimte*/
 }
 
 /* AFBEELDINGEN */
@@ -90,12 +90,12 @@ img {
   margin-right: 200px;
   margin-bottom: 100px;
   width: 300px;
-  height: auto;
+  height: auto; /*Tegen vervorming van afbeelding*/
 }
 
 /* FLEXBOX CONTAINER */
-.content-container {
-  display: flex; /* Flexbox voor layout */
+.content-container { 
+  display: flex; /* Flexbox voor layout: tekst links en plaatjes rechts */
   align-items: flex-start;
   gap: 20px; /* Ruimte tussen elementen */
   margin: 20px;
@@ -112,7 +112,7 @@ img {
   align-items: flex-end; /*Alles naar Rechts  */
 }
 
-.rechts img {
+.rechts img { /* opmaak voor afbeeldingen die ik rechts heb genoemd*/
   margin-bottom: 10px;
   max-width: 100%;
   height: auto;
