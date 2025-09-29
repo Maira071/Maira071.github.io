@@ -146,15 +146,13 @@ div.p3 { /* Dit is de opmaak van de botton-link naar binary bonanza*/
 }
 
 iframe {
-  width: 560px;               /* breedte van de video */
-  height: 315px;              /* hoogte van de video */
-  border-radius: 12px;        /* afgeronde hoeken */
+  width: 560px;                     /* vaste breedte van de video */
+  height: 315px;                    /* vaste hoogte van de video */
+  border-radius: 12px;              /* afgeronde hoeken */
   box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* schaduw achter de video */
-  display: block;             /* maakt de iframe een blok-element */
-  margin: 20px auto;          /* voegt ruimte boven/onder toe en centreert horizontaal */
-  margin-bottom: 40px;
+  display: block;                   /* Vorm is een blok */
+  margin: 20px auto 40px auto;      /* 20px ruimte boven de video en 40px ruimte onder de video */
 }
-
 
 .footer {
    position: fixed;
