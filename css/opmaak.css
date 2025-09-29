@@ -6,10 +6,10 @@
 }
 
 .navbar a {
-  float: left; /* Items naast elkaar */
-  font-size: 16px;
+  float: left; /* naast elkaar */
+  font-size: 16px; /*tekst grootte*/
   color: white; /* Witte tekst */
-  text-align: center;
+  text-align: center; /*maakt tekst horizontaal*/ 
   padding: 20px 25px; /* Ruimte rond tekst */
   text-decoration: none; /* Geen onderstreping */
 }
@@ -19,15 +19,15 @@
   overflow: hidden; /* Zorgt dat dropdown netjes blijft */
 }
 
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 20px 25px;
-  background-color: inherit; /* Zelfde kleur als navbar */
-  font-family: inherit;
-  margin: 0;
+dropdown .dropbtn {
+  font-size: 16px; /* Tekstgrootte van de knop */
+  border: none; /* Geen rand rond de knop */
+  outline: none; /* Geen outline bij klikken */
+  color: white; /* Tekstkleur wit */
+  padding: 20px 25px; /* Binnenruimte: 20px boven/onder, 25px links/rechts */
+  background-color: inherit; /* Achtergrondkleur overgenomen van ander */
+  font-family: inherit; /* Lettertype overgenomen van ander */
+  margin: 0; /* Geen buitenruimte rond de knop */
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
