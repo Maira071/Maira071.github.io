@@ -151,7 +151,7 @@ iframe {
   border-radius: 12px;              /* afgeronde hoeken */
   box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* schaduw achter de video */
   display: block;                   /* Vorm is een blok */
-  margin: 20px auto 40px auto;      /* 20px ruimte boven de video en 40px ruimte onder de video */
+  margin: 20px auto 100px auto;      /* 20px ruimte boven de video en 40px ruimte onder de video */
 }
 
 .footer {
