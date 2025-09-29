@@ -1,68 +1,77 @@
-<!DOCTYPE html> <!--Dit is mijn algemene informatie pagina-->
-<html> <!--Dit is mijn html element-->
-
+<!DOCTYPE html>
+<html lang="nl">
 <head>
-<link rel="stylesheet" href="opmaak.css"> <!--Dit is mijn link naar css-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--zodat website ook op telefoon gebruikt kan worden-->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"> <!--Dit is de download link van mijn lettertype van al mijn titels-->
-    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algemene informatie - Maira's website</title>
 
-    <style> 
-        body { /*Dit is mijn achtergrond en staat in html omdat het voor elke pagina anders is*/
-            background-image: url(https://t4.ftcdn.net/jpg/06/51/15/69/360_F_651156915_MCgwmyQQxY6aGU7BgabyqcTMlMfUD1Oc.jpg);
+    <!-- Externe font voor titels -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <!-- Lokale CSS -->
+    <link rel="stylesheet" href="css/opmaak.css">
+
+    <!-- Achtergrondstijl -->
+    <style>
+        body {
+            background-image: url("https://t4.ftcdn.net/jpg/06/51/15/69/360_F_651156915_MCgwmyQQxY6aGU7BgabyqcTMlMfUD1Oc.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
+            margin: 0;
+            font-family: Arial, sans-serif;
         }
     </style>
-    <body> 
-    
-    <div class="navbar"> <!--Dit is mijn menu met dropdown-->
-  <a href="index.html">Home</a>
-  <a href="algemeneinformatie.html">Algemene informatie</a>
-  <a href="Binairstelsel.html">Binair stelsel</a>
-  <a href="Kleurmodellen.html">Kleurmodellen</a>
-  <div class="dropdown">
-    <button class="dropbtn">Compressie 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="Vector.html">Vector</a>
-      <a href="Bitmap.html">Bitmap</a>
-    </div>
-  </div> 
-</div>
+</head>
+<body>
 
-<h1>Algemene informatie</h1> <!--Dit is mijn titel van mijn Algemene infomatie pagina-->
+    <!-- Navigatiebalk -->
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="algemeneinformatie.html">Algemene informatie</a>
+        <a href="Binairstelsel.html">Binair stelsel</a>
+        <a href="Kleurmodellen.html">Kleurmodellen</a>
+        <div class="dropdown">
+            <button class="dropbtn">Compressie
+                <i class="fa fa-caret-down"></i> <!-- werkt alleen als FontAwesome geladen is -->
+            </button>
+            <div class="dropdown-content">
+                <a href="Vector.html">Vector</a>
+                <a href="Bitmap.html">Bitmap</a>
+            </div>
+        </div>
+    </nav>
 
-<img src="AlgemeneInformatieAfbeelding.png" alt="plaatje">
-<img src="AlgemeneInformatieGif.gif" alt="gif">
+    <!-- Pagina titel -->
+    <header>
+        <h1>Algemene informatie</h1>
+    </header>
 
+    <!-- Afbeeldingen -->
+    <img src="images/AlgemeneInformatieAfbeelding.png" alt="Algemene informatie afbeelding" class="info-image">
+    <img src="images/AlgemeneInformatieGif.gif" alt="Informatica GIF" class="info-gif">
 
-<div class="p2">
-  <div class="p1">Informatica gaat over het verwerken van informatie met computers. Soms kan dit frustrerend zijn als de computer niet doet wat je wilt. Een computer werkt in drie stappen: Invoer, verwerken en uitvoer. 
-  </div>
-  <div class="p1"><b>Invoer</b>
-  </div>
-  <div class="p1">Invoer is een proces waarbij informatie, gegevens of instructies naar de computer toe worden gestuurd. Dit gaat met behulp van apparaten. Denk hierbij bijvoorbeeld aan een toetsenbord, muis of scanner. 
-  </div>
-  <div class="p1"><b>Verwerking</b>
-  </div>
-  <div class="p1">De processor is verantwoordelijk voor de verwerking . De processor zorgt dat er een verbinding ontstaat tussen de invoer- en de uitvoerapparaten. 
-  </div>
-  <div class="p1"><b>Uitvoer</b>
-  </div>
-  <div class="p1">Dit is het resultaat dat de computer genereert na de verwerking. Dit is wat we kunnen waarnemen. Voorbeelden van apparaten die voor uitvoer werken zijn een beeldscherm, printer en luidsprekers. Dit eenvoudige principe van invoer, verwerking en uitvoer vormt de basis van alle computerfuncties.
-  </div>
-  <div class="p1"><b>Informatie & gegevens</b>
-  </div>
-  <div class="p1">Gegevens zijn onbewerkte bouwstenen terwijl informatie het resultaat is van het ordenen, interpreteren en begrijpen van die gegevens. Informatica is een breed vak: van programmeren tot het ontwerpen van systemen, analyseren van data en begrijpen van de manier waarop informatie wordt verwerkt en gebruikt. Op deze website vind je vooral informatie over hoe systemen werken op een computer. Zo vind je informatie over het binair stelsel, kleurmodellen en compressie.  
-  </div>
-</div class="p2">
+    <!-- Tekstblok -->
+    <section class="intro">
+        <p>Informatica gaat over het verwerken van informatie met computers. Soms kan dit frustrerend zijn als de computer niet doet wat je wilt. Een computer werkt in drie stappen: Invoer, verwerken en uitvoer.</p>
 
+        <h2>Invoer</h2>
+        <p>Invoer is een proces waarbij informatie, gegevens of instructies naar de computer toe worden gestuurd. Dit gaat met behulp van apparaten, zoals toetsenbord, muis of scanner.</p>
 
-<div class="footer"> <!--Dit is de tekst die aan de onderkant van de pagina staat-->
-  <p>Gemaakt door Maira Mooijman</p>
-</div>
-    </body>
+        <h2>Verwerking</h2>
+        <p>De processor is verantwoordelijk voor de verwerking. De processor zorgt dat er een verbinding ontstaat tussen de invoer- en de uitvoerapparaten.</p>
+
+        <h2>Uitvoer</h2>
+        <p>Dit is het resultaat dat de computer genereert na de verwerking. Voorbeelden van uitvoerapparaten zijn beeldscherm, printer en luidsprekers. Dit eenvoudige principe van invoer, verwerking en uitvoer vormt de basis van alle computerfuncties.</p>
+
+        <h2>Informatie & gegevens</h2>
+        <p>Gegevens zijn onbewerkte bouwstenen terwijl informatie het resultaat is van het ordenen, interpreteren en begrijpen van die gegevens. Informatica is een breed vak: van programmeren tot het ontwerpen van systemen, analyseren van data en begrijpen van de manier waarop informatie wordt verwerkt en gebruikt. Op deze website vind je vooral informatie over hoe systemen werken op een computer. Zo vind je informatie over het binair stelsel, kleurmodellen en compressie.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Gemaakt door Maira Mooijman</p>
+    </footer>
+
+</body>
 </html>
