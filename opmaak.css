@@ -1,55 +1,50 @@
-
-
-
-body { /*Dit is mijn horizontaal + dropdown menu*/ 
-  font-family: Arial, Helvetica, sans-serif;
-}
-
+/* NAVIGATIEMENU */
 .navbar {
-  overflow: hidden;
-  background-color: #000000;
+  overflow: hidden; 
+  background-color: #000000; /* Zwarte achtergrond */
+  font-family: "Times New Roman", Times, serif; /* Lettertype menu */
 }
 
 .navbar a {
-  float: left;
+  float: left; /* Items naast elkaar */
   font-size: 16px;
-  color: rgb(255, 255, 255);
+  color: white; /* Witte tekst */
   text-align: center;
-  padding: 20px 25px;
-  text-decoration:none;
+  padding: 20px 25px; /* Ruimte rond tekst */
+  text-decoration: none; /* Geen onderstreping */
 }
 
 .dropdown {
   float: left;
-  overflow: hidden;
+  overflow: hidden; /* Zorgt dat dropdown netjes blijft */
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-size: 16px;
   border: none;
   outline: none;
   color: white;
   padding: 20px 25px;
-  background-color: inherit;
+  background-color: inherit; /* Zelfde kleur als navbar */
   font-family: inherit;
   margin: 0;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(238, 55, 159);
+  background-color: rgb(238, 55, 159); /* Roze hover-effect */
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: rgb(238, 55, 159);
+  display: none; /* Dropdown standaard verborgen */
+  position: absolute; /* Positionering voor dropdown */
+  background-color: rgb(238, 55, 159); /* Roze achtergrond */
   min-width: 127px;
-  z-index: 1;
+  z-index: 1; /* Boven andere elementen */
 }
 
 .dropdown-content a {
   float: none;
-  color: rgb(255, 255, 255);
+  color: white; /* Witte tekst */
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -57,69 +52,64 @@ body { /*Dit is mijn horizontaal + dropdown menu*/
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #ddd; /* Lichtgrijze hover */
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: block; /* Dropdown zichtbaar bij hover */
 }
 
-.navbar{ /*Dit is mijn lettertype van mijn menu*/
-  font-family: "Times New Roman", Times, serif;
-}
-
+/* TITELS EN TEKST */
 h1 { 
-color: white;/*Dit is mijn titel kleur*/
-text-align: center;/*Dit is zorgt ervoor dat mijn titel in het midden staat van de pagina*/
-text-decoration: underline; /* Dit zorgt voor onderlijning*/
- font-family: "Sofia", sans-serif;
+  color: white;
+  text-align: center; /* Midden van pagina */
+  text-decoration: underline; /* Onderlijnd */
+  font-family: "Sofia", sans-serif;
 }
 
-div.p1 { /*Dit is mijn tekst opmaak voor p1*/
+div.p1 {
   color: white;
   font-size: 20px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", Times, serif; /* Tekstblok */
 }
 
-
-
-div.p2 { /*Blok om tekst heen*/ 
-outline-width: 8px;
-  padding: 5px;
-  margin:  40px ;
+/* TEKSTBLOK MET RAND */
+div.p2 {
+  outline-width: 8px; 
   outline-style: solid;
-  outline-color: rgb(238, 55, 159);
+  outline-color: rgb(238, 55, 159); /* Roze rand */
+  padding: 5px;
+  margin: 40px;
   width: 40%;
   margin-bottom: 100px;
 }
 
+/* AFBEELDINGEN */
 img {
-    float: right;      /* zet plaatje rechts */
-    margin-right: 200px; /* ruimte tussen plaatje en rechterkant*/
-    margin-bottom: 100px; /*ruimte tussen plaaje en onderkant*/
-    width: 300px;      /* grootte plaatje */
-    height: automatic;
-  }
+  float: right; /* Plaatje rechts */
+  margin-right: 200px;
+  margin-bottom: 100px;
+  width: 300px;
+  height: auto;
+}
 
-
+/* FLEXBOX CONTAINER */
 .content-container {
-  display: flex;
+  display: flex; /* Flexbox voor layout */
   align-items: flex-start;
-  gap: 20px;
+  gap: 20px; /* Ruimte tussen elementen */
   margin: 20px;
 }
 
-/* roze tekstvlak */
 .p2 {
-  width: 80%;   /* verdubbeld → nu 40% van scherm naar tekst */
+  width: 80%; /* Breder tekstblok in container */
 }
 
-/* afbeeldingen rechts */
 .rechts {
-  flex: 1;                   
+  flex: 1;
   display: flex;
-  flex-direction: column;    
-  align-items: flex-end;     
+  flex-direction: column; /* onder elkaar */
+  align-items: flex-end; /*Alles naar Rechts  */
 }
 
 .rechts img {
@@ -128,43 +118,40 @@ img {
   height: auto;
 }
 
+/* BUTTON-LINK */
+div.p3 { 
+  a:link, a:visited {
+    background-color: #e54090; /* Roze achtergrond */
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
 
-
-div.p3 { /* Dit is de opmaak van de botton-link naar binary bonanza*/
- a:link, a:visited {
-  background-color: #e54090;
-  color: white;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
- }
-
- a:hover, a:active {
-  background-color: rgb(0, 0, 0);
- }
+  a:hover, a:active {
+    background-color: black; /* Zwart bij hover */
+  }
 }
 
+/* VIDEO */
 iframe {
-  width: 560px;                     /* vaste breedte van de video */
-  height: 315px;                    /* vaste hoogte van de video */
-  border-radius: 12px;              /* afgeronde hoeken */
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* schaduw achter de video */
-  display: block;                   /* Vorm is een blok */
-  margin: 20px auto 100px auto;      /* 20px ruimte boven de video en 40px ruimte onder de video */
+  width: 560px;
+  height: 315px;
+  border-radius: 12px; /* Afgeronde hoeken */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Schaduw */
+  display: block;
+  margin: 20px auto 100px auto; /* Centraal en ruimte rondom */
 }
 
+/* FOOTER */
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: rgb(0, 0, 0);
-   color: white;
-   text-align: center;
-   font-family: "Times New Roman", Times, serif;
+  position: fixed; /* Blijft onderaan scherm */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
 }
-
-
-
-
