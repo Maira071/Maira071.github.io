@@ -1,67 +1,69 @@
-<!DOCTYPE html> <!--Dit is mijn binairstelsel pagina-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binair stelsel - Maira's website</title>
 
-<html> <!--Dit is mijn html element-->
-    <head> 
-<link rel="stylesheet" href="opmaak.css"> <!--Dit is de link naar css-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--zodat website ook op telefoon gebruikt kan worden-->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    </head>
-    <style> /*dit is mijn achtergrond image*/
+    <!-- Externe font voor titels -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+    <!-- Lokale CSS -->
+    <link rel="stylesheet" href="css/opmaak.css">
+
+    <!-- Achtergrondstijl -->
+    <style>
         body {
-            background-image: url(https://www.shutterstock.com/image-vector/futuristic-technology-background-binary-code-600nw-2659041375.jpg) ;
+            background-image: url("https://www.shutterstock.com/image-vector/futuristic-technology-background-binary-code-600nw-2659041375.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
         }
     </style>
-    
-    <body> 
-    
-    <div class="navbar"> <!--Dit is mijn menu met dropdown-->
-  <a href="index.html">Home</a>
-  <a href="algemeneinformatie.html">Algemene informatie</a>
-  <a href="Binairstelsel.html">Binair stelsel</a>
-  <a href="Kleurmodellen.html">Kleurmodellen</a>
-  <div class="dropdown">
-    <button class="dropbtn">Compressie 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="Vector.html">Vector</a>
-      <a href="Bitmap.html">Bitmap</a>
-    </div>
-  </div> 
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="algemeneinformatie.html">Algemene informatie</a>
+    <a href="Binairstelsel.html">Binair stelsel</a>
+    <a href="Kleurmodellen.html">Kleurmodellen</a>
+    <div class="dropdown">
+        <button class="dropbtn">Compressie 
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="Vector.html">Vector</a>
+            <a href="Bitmap.html">Bitmap</a>
+        </div>
+    </div> 
 </div>
 
-<h1>Binair stelsel</h1> <!--Dit is mijn titel van mijn binair stelsel pagina-->
+<h1>Binair stelsel</h1>
 
-<img src="BinairstelselAfbeelding.jpg" alt="plaatje">
+<img src="images/BinairstelselAfbeelding.jpg" alt="plaatje">
 
 <div class="p2">
-  <div class="p1"><b>Wat is het binair stelsel?</b>
-  </div>
-  <div class="p1"> Het binair stelsel maakt gebruik van de getallen 0 en 1. Deze cijfers worden “Bits” genoemd. Deze getallen kunnen ja/nee of uit/aan betekenen. Een reeks van acht nullen en enen wordt een byte genoemd. Het binaire stelsel maakt gebruik van machten van 2. Normaal gebruiken wij het decimale stelsel met het grondtal 10. Binary Bonza is een leuke site om hiermee te oefenen. 
-  </div>
-  <div class="p3">
-   <a href="https://games.penjee.com/binary-bonanza/" target="_blank">Klik hier om Binary Bonanza te spelen</a>
-  </div>
-  <div class="p1"><b>Hoe werkt het binair stelsel?</b>
-  </div>
-  <div class="p1">De meest rechtse bit heeft de kleinste waarde en de meest linkse bit juist de grootste waarde. De nullen en enen die je gebruikt betekent eigenlijk of een getal aan of uit staat. Alle getallen waar een 1 bij staat, tel je bij elkaar op en dat vormt dus een getal. Bijvoorbeeld, het binaire getal 1011 vertegenwoordigt (1 x 2³) + (0 x 2²) + (1 x 2¹) + (1 x 2⁰), wat gelijk is aan 11 in decimale notatie. Hieronder vind je nog een uitleg filmpje over het binair stelsel. 
-  </div>
+    <div class="p1"><b>Wat is het binair stelsel?</b></div>
+    <div class="p1">Het binair stelsel maakt gebruik van de getallen 0 en 1. Deze cijfers worden “Bits” genoemd. Deze getallen kunnen ja/nee of uit/aan betekenen. Een reeks van acht nullen en enen wordt een byte genoemd. Het binaire stelsel maakt gebruik van machten van 2. Normaal gebruiken wij het decimale stelsel met het grondtal 10. Binary Bonza is een leuke site om hiermee te oefenen.</div>
+    <div class="p3">
+        <a href="https://games.penjee.com/binary-bonanza/" target="_blank">Klik hier om Binary Bonanza te spelen</a>
+    </div>
+    <div class="p1"><b>Hoe werkt het binair stelsel?</b></div>
+    <div class="p1">De meest rechtse bit heeft de kleinste waarde en de meest linkse bit juist de grootste waarde. De nullen en enen die je gebruikt betekent eigenlijk of een getal aan of uit staat. Alle getallen waar een 1 bij staat, tel je bij elkaar op en dat vormt dus een getal. Bijvoorbeeld, het binaire getal 1011 vertegenwoordigt (1 x 2³) + (0 x 2²) + (1 x 2¹) + (1 x 2⁰), wat gelijk is aan 11 in decimale notatie. Hieronder vind je nog een uitleg filmpje over het binair stelsel.</div>
 </div>
 
 <iframe 
-  src="https://www.youtube.com/embed/RrJXLdv1i74"  <!-- de YouTube video-->
-  title="Binary uitleg"                            <!-- tekst die zoekmachines en screenreaders zien -->
-  frameborder="0"                                  <!-- geen rand rond de video -->
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  
-  <!-- toestemmingen voor de video-->
-  allowfullscreen>                                 <!-- zorgt dat je fullscreen kan klikken -->
+    src="https://www.youtube.com/embed/RrJXLdv1i74"
+    title="Binary uitleg"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
 </iframe>
 
 <div class="footer">
-  <p>Gemaakt door Maira Mooijman</p>
+    <p>Gemaakt door Maira Mooijman</p>
 </div>
-    </body>
+
+</body>
 </html>
